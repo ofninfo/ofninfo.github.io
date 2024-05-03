@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    background-color: black;
+    color: darkorange;
+}
+
+body div {
+    width: 400px;
+    height: 400px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+body div table {
+    margin: auto;
+}
+
+body div table tr td {
+    text-align: center;
+}
+
+body div table tr td table {
+    margin: auto;
+}
+
+body div table tr td p {
+    border: 1px dotted #202020;
+    text-align: justify;
+    padding: 10px;
+}
+
+body div table tr td table tr th {
+    text-align: right;
+}
+
+body div table tr td table tr td {
+    text-align: left;
+}
